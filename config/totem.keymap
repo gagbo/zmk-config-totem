@@ -34,13 +34,15 @@
             compatible = "zmk,combos";
             combo_esc {
                 timeout-ms = <50>;
-                key-positions = <0 1>;
+                key-positions = <0 1>; // [QW] in qwerty
                 bindings = <&kp ESC>;
+				layers = <BASE>;
             };
             combo_game {
                 timeout-ms = <100>;
-                key-positions = <11 12 13>;
+                key-positions = <11 12 13>; // [SDF] in qwerty
                 bindings = <&tog GAME>;
+				layers = <BASE>;
             };
     };
 
