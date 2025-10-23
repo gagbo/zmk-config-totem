@@ -38,6 +38,12 @@
                 bindings = <&kp ESC>;
 				layers = <BASE>;
             };
+            combo_ret {
+                timeout-ms = <50>;
+                key-positions = <8 9>; // [OP] in qwerty
+                bindings = <&kp RET>;
+				layers = <BASE>;
+            };
             combo_game {
                 timeout-ms = <100>;
                 key-positions = <11 12 13>; // [SDF] in qwerty
