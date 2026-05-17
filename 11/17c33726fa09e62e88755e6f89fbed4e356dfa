@@ -1,0 +1,26 @@
+config/totem.keymap
+  s_4bdd3e1c496c74::t_b1fc458c93756a 1-9,11,13,16-22,26-31,34-36,38
+config/west.yml
+  s_4bdd3e1c496c74::t_803500ffc60f69 14
+  s_4bdd3e1c496c74::t_0047123ba3800c 5-6,12-13
+include/aekeynox/settings.h
+  s_4bdd3e1c496c74::t_63d5473a2ade34 1-8
+build.yaml
+  s_4bdd3e1c496c74::t_318bcd5ae110c3 2,4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "1117c33726fa09e62e88755e6f89fbed4e356dfa",
+  "prompts": {},
+  "sessions": {
+    "s_4bdd3e1c496c74": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_1ca063bb5ffeq4MpCIAxmUjjWz",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Gerry Agbobada <gerry@tsuga.com>"
+    }
+  }
+}
