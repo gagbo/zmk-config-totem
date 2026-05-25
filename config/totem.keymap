@@ -8,6 +8,12 @@
     LOUT3 LROW3   RROW3 ROUT3 \
     LT1 LT2 LT3   RT3 RT2 RT1
 
+// Host: Ergol layout on Linux
+// Variant: Vim navigation
+#define KB_LAYOUT_ERGOL
+#define LINUX
+#define VIM_NAVIGATION
+
 #include <aekeynox/selenium.keymap>
 
 #define GAME EXTRA_LAYERS_START_INDEX
